@@ -72,7 +72,7 @@ namespace SolarCoffee.Services.Product
 
             }
             
-            catch (Exception e)
+            catch
             {
                 return new ServiceResponse<Data.Models.Product>
                 {
