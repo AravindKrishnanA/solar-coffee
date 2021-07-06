@@ -27,7 +27,7 @@ namespace SolarCoffee.Services.Order
             _inventoryService = inventoryService;
         }
 
-        public ServiceResponse<bool> GenerateInvoiceForOrder(SalesOrder order)
+        public ServiceResponse<bool> GenerateOpenOrder(SalesOrder order)
         {
             var now = DateTime.UtcNow;
 

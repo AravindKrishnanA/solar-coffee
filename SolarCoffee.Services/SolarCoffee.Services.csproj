@@ -12,8 +12,4 @@
     <ProjectReference Include="..\SolarCoffee.Data\SolarCoffee.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Order\" />
-  </ItemGroup>
-
 </Project>
